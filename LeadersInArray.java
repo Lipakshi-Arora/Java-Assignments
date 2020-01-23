@@ -1,3 +1,15 @@
+// Given an array of positive integers. Your task is to find the leaders in the array.
+// Note: An element of array is leader if it is greater than or equal to all the elements
+// to its right side. Also, the rightmost element is always a leader.
+
+// Input : 5
+//             7 4 5 7 3
+
+// Output: 7 7 3
+// All elements on the right of 7 (at index 0) are smaller than or equal to 7. Also, all the elements 
+// of right side of 7 (at index 3) are smaller than 7. And, the last element 3 is itself a leader since no elements are on its right.
+
+
 import java.util.Scanner;
 public class LeadersInArray {
 
